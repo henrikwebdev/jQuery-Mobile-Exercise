@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <!--The viewport <meta> tag inside the <head> element specifies how the browser should control the page zoom level and dimensions.
+
+    The width=device-width sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+    The initial-scale=1 sets the initial zoom level when the page is first loaded by the browser.-->
+    <title>jQuery Mobile Exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+    <script src="feedreader.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="home">
+    <div data-role="header">
+        <h1>jQuery Mobile Exercise</h1>
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" class="ui-btn-active ui-state-persist" data-icon="home">Home</a>
+                </li>
+                <li><a href="links.html" data-icon="arrow-u-r">Links</a>
+                </li>
+                <li><a href="feedreader.html" data-icon="bullets">Feedreader</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <div data-role="main" class="ui-content">
+            <p>Jquery Mobile exercise</p>
+            <ul>
+              <li>Why should we think about mobile first?</li>
+              <li>What is graceful degradation about?</li>
+              <li>Which 3 choices to mobile development is explained in chapter 3?</li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="footer">
+        <h1><a href="http://dev-henrik-rossen-jakobsen.gotpantheon.com/" target="_blank">Henrik Rossen Jakobsen</a>
+        </h1>
+    </div>
+</div>
+</body>
+
+</html>

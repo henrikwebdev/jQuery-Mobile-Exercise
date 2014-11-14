@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>jQuery Mobile Exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+    <script src="feedreader.js"></script>
+
+    <style>
+    .ui-content {
+        padding: 0 !important;
+    }
+    .ui-listview {
+        margin: 0 !important;
+    }
+    .example-wrapper,
+    .example-wrapper div.iscroll-scroller {
+        width: 100% !important;
+    }
+    </style>
+</head>
+
+<body>
+    <div data-role="page" id="feedreader">
+
+        <div data-role="header">
+            <h1>jQuery Mobile Exercise</h1>
+
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="index.html" data-icon="home">Home</a>
+                    </li>
+                    <li><a href="links.html" data-icon="arrow-u-r">Links</a>
+                    </li>
+                    <li><a href="feedreader.html" data-icon="bullets" class="ui-btn-active ui-state-persist">Feedreader</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="content">
+            <div data-role="main" class="ui-content">
+                <p>Feedreader for the greatest Batman movies from the themoviedb.</p>
+            </div>
+
+            <div class="example-wrapper" data-iscroll>
+                <ul data-role="listview" id="movie-list">
+
+                </ul>
+            </div>
+        </div>
+        <div data-role="footer">
+            <h1><a href="http://dev-henrik-rossen-jakobsen.gotpantheon.com/" target="_blank">Henrik Rossen Jakobsen</a>
+            </h1>
+        </div>
+
+    </div>
+</body>
+
+</html>
