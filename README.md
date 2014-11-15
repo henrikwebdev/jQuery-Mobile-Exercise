@@ -10,6 +10,7 @@ jQuery-Mobile-Exercise
 
 
 **Make a server side redirect to the index.html page from a index.php page**
+
 [http://dev-henrik-rossen-jakobsen.gotpantheon.com/deviceredirect.php](http://dev-henrik-rossen-jakobsen.gotpantheon.com/deviceredirect.php)
 
 
@@ -19,9 +20,11 @@ jQuery-Mobile-Exercise
 **Make a links.html with links to:**
  - Centralinformation’s about jQuery Mobile. 
  - A nice example of a jQuery Mobile based site
+
 [http://dev-henrik-rossen-jakobsen.gotpantheon.com/sites/default/files/jquery_mobile/links.html](http://dev-henrik-rossen-jakobsen.gotpantheon.com/sites/default/files/jquery_mobile/links.html)
 
 
 **Make a feedreader.html page that gets data from a web api (webservice)**
+
 [http://dev-henrik-rossen-jakobsen.gotpantheon.com/sites/default/files/jquery_mobile/feedreader.html](http://dev-henrik-rossen-jakobsen.gotpantheon.com/sites/default/files/jquery_mobile/feedreader.html)
 
